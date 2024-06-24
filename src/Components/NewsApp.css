@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('../Assets/news.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh; /* Add this property */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.news-app {
+  background: rgba(255, 255, 255, 0.608);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 500px;
+}
+
+/* Rest of the styles remain the same */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: url('../Assets/news.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.news-app {
+  background: rgba(255, 255, 255, 0.608);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 500px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.search-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.search-icon img {
+  width: 24px;
+}
+
+.search-icon:hover {
+  opacity: 0.8;
+}
+
+.role-selector {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.role-selector label {
+  font-size: 14px;
+  margin-right: 8px;
+  color: #555;
+}
+
+.role-selector select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.news-list {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.news-article {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.news-article h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.news-article p {
+  font-size: 14px;
+  color: #555;
+}
+
+.loading {
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: #d9534f;
+  font-size: 16px;
+  margin-top: 10px;
+}
