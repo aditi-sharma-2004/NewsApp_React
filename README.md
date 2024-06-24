@@ -8,6 +8,9 @@ NewsApp allows users to view news data based on their assigned roles. The applic
 
 The News App is a web application built using React and Node.js technologies. It allows users to search and view news articles based on their interests. Users can select between different roles (admin or guest) to access the application, with role-based permissions enforced to control data access. The frontend provides an intuitive interface where users can input a search query for news articles. The backend interacts with the NewsAPI to fetch and display relevant news articles based on user queries. Error handling and permission management are integrated to ensure a smooth user experience. Overall, the News App provides a streamlined way for users to stay informed with the latest news tailored to their preferences.
 
+## Explanation
+
+[![Watch the video](https://img.youtube.com/vi/gzvuEY4h-0c/maxresdefault.jpg)](https://youtu.be/gzvuEY4h-0c) 
 ## Features
 
 - **Role Selection**: Users can choose between "admin" and "guest" roles using a dropdown menu.
